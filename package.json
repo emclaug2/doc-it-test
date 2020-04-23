@@ -1,0 +1,24 @@
+{
+    "name": "doc-it-api-admin",
+    "version": "1.0.0",
+    "description": "Modify Database",
+    "scripts": {
+        "build": "tsc",
+        "start": "yarn build && node dist/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/emclaug2/pxblue-home-api.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/emclaug2/pxblue-home-api/issues"
+    },
+    "prettier": "@pxblue/prettier-config",
+    "homepage": "https://github.com/emclaug2/pxblue-home-api#readme",
+    "devDependencies": {
+        "@types/node": "^13.13.2",
+        "typescript": "^3.8.3"
+    }
+}
