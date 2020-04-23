@@ -21,7 +21,7 @@ type RoadmapBucket = {
 
 export const roadmap: RoadmapBucket[] = [
     {
-        name: 'Angular Component Library',
+        name: 'Angular Component Library Hallo',
         description: 'Reusable UI elements from @pxblue/angular-components',
         applies: ['angular', 'ionic'],
         items: [
